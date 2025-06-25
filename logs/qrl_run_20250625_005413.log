@@ -1,0 +1,123 @@
+2025-06-25 00:54:13,868 - INFO - --- Starting QRL PPO Training ---
+2025-06-25 00:54:13,868 - INFO - Using device: cuda
+2025-06-25 00:54:13,869 - INFO - Loading features from /media/meow/Transcend/FinLab_tw/qrl_industry_sector_rotation/features_data.csv
+2025-06-25 00:54:13,926 - INFO - Preparing data and environment...
+2025-06-25 00:54:13,952 - INFO - Number of industries (action space): 17
+2025-06-25 00:54:13,952 - INFO - Number of features per industry: 7
+2025-06-25 00:54:13,952 - INFO - Model input dimension (T, C): C = 119
+2025-06-25 00:54:14,458 - INFO - 
+--- Starting Training ---
+2025-06-25 00:57:17,259 - INFO - Epoch 1, Total Reward: 1675.50
+2025-06-25 01:00:20,686 - INFO - Epoch 2, Total Reward: 1774.50
+2025-06-25 01:03:24,076 - INFO - Epoch 3, Total Reward: 1758.00
+2025-06-25 01:06:27,439 - INFO - Epoch 4, Total Reward: 1967.00
+2025-06-25 01:09:30,797 - INFO - Epoch 5, Total Reward: 2031.90
+2025-06-25 01:12:34,104 - INFO - Epoch 6, Total Reward: 2135.30
+2025-06-25 01:15:37,586 - INFO - Epoch 7, Total Reward: 2203.50
+2025-06-25 01:18:41,465 - INFO - Epoch 8, Total Reward: 2295.90
+2025-06-25 01:21:44,749 - INFO - Epoch 9, Total Reward: 2379.50
+2025-06-25 01:24:48,119 - INFO - Epoch 10, Total Reward: 2416.90
+2025-06-25 01:27:51,319 - INFO - Epoch 11, Total Reward: 2410.30
+2025-06-25 01:30:54,313 - INFO - Epoch 12, Total Reward: 2409.20
+2025-06-25 01:33:57,631 - INFO - Epoch 13, Total Reward: 2389.40
+2025-06-25 01:37:00,480 - INFO - Epoch 14, Total Reward: 2349.80
+2025-06-25 01:40:03,426 - INFO - Epoch 15, Total Reward: 2383.90
+2025-06-25 01:43:06,552 - INFO - Epoch 16, Total Reward: 2380.60
+2025-06-25 01:46:09,445 - INFO - Epoch 17, Total Reward: 2324.50
+2025-06-25 01:49:11,981 - INFO - Epoch 18, Total Reward: 2290.40
+2025-06-25 01:52:14,290 - INFO - Epoch 19, Total Reward: 2321.20
+2025-06-25 01:55:16,840 - INFO - Epoch 20, Total Reward: 2265.10
+2025-06-25 01:58:19,286 - INFO - Epoch 21, Total Reward: 2279.40
+2025-06-25 02:01:21,633 - INFO - Epoch 22, Total Reward: 2180.40
+2025-06-25 02:04:24,136 - INFO - Epoch 23, Total Reward: 2256.30
+2025-06-25 02:07:26,416 - INFO - Epoch 24, Total Reward: 2269.50
+2025-06-25 02:10:29,199 - INFO - Epoch 25, Total Reward: 2231.00
+2025-06-25 02:13:31,472 - INFO - Epoch 26, Total Reward: 2232.10
+2025-06-25 02:16:34,104 - INFO - Epoch 27, Total Reward: 2178.20
+2025-06-25 02:19:36,479 - INFO - Epoch 28, Total Reward: 2231.00
+2025-06-25 02:22:38,985 - INFO - Epoch 29, Total Reward: 2211.20
+2025-06-25 02:25:41,595 - INFO - Epoch 30, Total Reward: 2238.70
+2025-06-25 02:28:44,134 - INFO - Epoch 31, Total Reward: 2218.90
+2025-06-25 02:31:46,501 - INFO - Epoch 32, Total Reward: 2229.90
+2025-06-25 02:34:48,866 - INFO - Epoch 33, Total Reward: 2257.40
+2025-06-25 02:37:51,330 - INFO - Epoch 34, Total Reward: 2214.50
+2025-06-25 02:40:54,032 - INFO - Epoch 35, Total Reward: 2223.30
+2025-06-25 02:43:56,499 - INFO - Epoch 36, Total Reward: 2265.10
+2025-06-25 02:46:58,923 - INFO - Epoch 37, Total Reward: 2246.40
+2025-06-25 02:50:01,156 - INFO - Epoch 38, Total Reward: 2300.30
+2025-06-25 02:53:03,366 - INFO - Epoch 39, Total Reward: 2305.80
+2025-06-25 02:56:05,615 - INFO - Epoch 40, Total Reward: 2438.90
+2025-06-25 02:59:07,881 - INFO - Epoch 41, Total Reward: 2422.40
+2025-06-25 03:02:10,633 - INFO - Epoch 42, Total Reward: 2528.00
+2025-06-25 03:05:12,888 - INFO - Epoch 43, Total Reward: 2473.00
+2025-06-25 03:08:15,165 - INFO - Epoch 44, Total Reward: 2411.40
+2025-06-25 03:11:17,564 - INFO - Epoch 45, Total Reward: 2481.80
+2025-06-25 03:14:19,801 - INFO - Epoch 46, Total Reward: 2520.30
+2025-06-25 03:17:22,057 - INFO - Epoch 47, Total Reward: 2496.10
+2025-06-25 03:20:24,329 - INFO - Epoch 48, Total Reward: 2510.40
+2025-06-25 03:23:26,588 - INFO - Epoch 49, Total Reward: 2590.70
+2025-06-25 03:26:28,872 - INFO - Epoch 50, Total Reward: 2673.20
+2025-06-25 03:29:30,911 - INFO - Epoch 51, Total Reward: 2666.60
+2025-06-25 03:32:33,051 - INFO - Epoch 52, Total Reward: 2722.70
+2025-06-25 03:35:35,323 - INFO - Epoch 53, Total Reward: 2707.30
+2025-06-25 03:38:37,724 - INFO - Epoch 54, Total Reward: 2651.20
+2025-06-25 03:41:40,372 - INFO - Epoch 55, Total Reward: 2687.50
+2025-06-25 03:44:42,952 - INFO - Epoch 56, Total Reward: 2541.20
+2025-06-25 03:47:45,691 - INFO - Epoch 57, Total Reward: 2445.50
+2025-06-25 03:50:48,374 - INFO - Epoch 58, Total Reward: 2405.90
+2025-06-25 03:53:51,169 - INFO - Epoch 59, Total Reward: 2360.80
+2025-06-25 03:56:54,046 - INFO - Epoch 60, Total Reward: 2348.70
+2025-06-25 03:59:56,857 - INFO - Epoch 61, Total Reward: 2366.30
+2025-06-25 04:02:59,677 - INFO - Epoch 62, Total Reward: 2375.10
+2025-06-25 04:06:02,899 - INFO - Epoch 63, Total Reward: 2443.30
+2025-06-25 04:09:05,327 - INFO - Epoch 64, Total Reward: 2419.10
+2025-06-25 04:12:07,940 - INFO - Epoch 65, Total Reward: 2535.70
+2025-06-25 04:15:10,519 - INFO - Epoch 66, Total Reward: 2557.70
+2025-06-25 04:18:12,991 - INFO - Epoch 67, Total Reward: 2576.40
+2025-06-25 04:21:15,919 - INFO - Epoch 68, Total Reward: 2660.00
+2025-06-25 04:24:18,498 - INFO - Epoch 69, Total Reward: 2675.40
+2025-06-25 04:27:21,258 - INFO - Epoch 70, Total Reward: 2668.80
+2025-06-25 04:30:23,959 - INFO - Epoch 71, Total Reward: 2694.10
+2025-06-25 04:33:26,798 - INFO - Epoch 72, Total Reward: 2655.60
+2025-06-25 04:36:29,599 - INFO - Epoch 73, Total Reward: 2701.80
+2025-06-25 04:39:31,379 - INFO - Epoch 74, Total Reward: 2707.30
+2025-06-25 04:42:33,596 - INFO - Epoch 75, Total Reward: 2679.80
+2025-06-25 04:45:35,695 - INFO - Epoch 76, Total Reward: 2673.20
+2025-06-25 04:48:37,715 - INFO - Epoch 77, Total Reward: 2687.50
+2025-06-25 04:51:39,838 - INFO - Epoch 78, Total Reward: 2679.80
+2025-06-25 04:54:41,677 - INFO - Epoch 79, Total Reward: 2729.30
+2025-06-25 04:57:43,861 - INFO - Epoch 80, Total Reward: 2689.70
+2025-06-25 05:00:45,522 - INFO - Epoch 81, Total Reward: 2667.70
+2025-06-25 05:03:47,390 - INFO - Epoch 82, Total Reward: 2644.60
+2025-06-25 05:06:49,267 - INFO - Epoch 83, Total Reward: 2647.90
+2025-06-25 05:09:52,043 - INFO - Epoch 84, Total Reward: 2603.90
+2025-06-25 05:12:54,354 - INFO - Epoch 85, Total Reward: 2656.70
+2025-06-25 05:15:58,915 - INFO - Epoch 86, Total Reward: 2646.80
+2025-06-25 05:19:01,977 - INFO - Epoch 87, Total Reward: 2607.20
+2025-06-25 05:22:04,716 - INFO - Epoch 88, Total Reward: 2613.80
+2025-06-25 05:25:07,370 - INFO - Epoch 89, Total Reward: 2578.60
+2025-06-25 05:28:11,243 - INFO - Epoch 90, Total Reward: 2520.30
+2025-06-25 05:31:13,226 - INFO - Epoch 91, Total Reward: 2606.10
+2025-06-25 05:34:16,822 - INFO - Epoch 92, Total Reward: 2547.80
+2025-06-25 05:37:18,919 - INFO - Epoch 93, Total Reward: 2559.90
+2025-06-25 05:40:21,791 - INFO - Epoch 94, Total Reward: 2597.30
+2025-06-25 05:43:25,509 - INFO - Epoch 95, Total Reward: 2623.70
+2025-06-25 05:46:28,872 - INFO - Epoch 96, Total Reward: 2559.90
+2025-06-25 05:49:31,955 - INFO - Epoch 97, Total Reward: 2642.40
+2025-06-25 05:52:34,921 - INFO - Epoch 98, Total Reward: 2664.40
+2025-06-25 05:55:38,086 - INFO - Epoch 99, Total Reward: 2644.60
+2025-06-25 05:58:41,391 - INFO - Epoch 100, Total Reward: 2653.40
+2025-06-25 05:58:41,393 - INFO - 
+--- Training Finished ---
+2025-06-25 05:58:41,393 - INFO - Saving models to /media/meow/Transcend/FinLab_tw/qrl_industry_sector_rotation/checkpoints
+2025-06-25 05:58:41,425 - INFO - Models saved successfully.
+2025-06-25 05:58:41,425 - INFO - 
+--- Starting Evaluation ---
+2025-06-25 05:59:42,769 - INFO - 
+--- QRL Strategy Performance Metrics ---
+2025-06-25 05:59:42,769 - INFO - Cumulative Return        : 103.91%
+2025-06-25 05:59:42,769 - INFO - Annualized Return        : 14.68%
+2025-06-25 05:59:42,769 - INFO - Annualized Volatility    : 19.18%
+2025-06-25 05:59:42,769 - INFO - Sharpe Ratio             : 0.77
+2025-06-25 05:59:42,769 - INFO - Max Drawdown             : -32.75%
+2025-06-25 05:59:42,769 - INFO - Calmar Ratio             : 0.45

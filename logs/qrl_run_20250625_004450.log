@@ -1,0 +1,25 @@
+2025-06-25 00:44:50,360 - INFO - --- Starting QRL PPO Training ---
+2025-06-25 00:44:50,360 - INFO - Using device: cuda
+2025-06-25 00:44:50,360 - INFO - Loading features from /media/meow/Transcend/FinLab_tw/qrl_industry_sector_rotation/features_data.csv
+2025-06-25 00:44:50,416 - INFO - Preparing data and environment...
+2025-06-25 00:44:50,442 - INFO - Number of industries (action space): 17
+2025-06-25 00:44:50,442 - INFO - Number of features per industry: 7
+2025-06-25 00:44:50,442 - INFO - Model input dimension (T, C): C = 119
+2025-06-25 00:44:50,980 - INFO - 
+--- Starting Training ---
+2025-06-25 00:47:52,789 - INFO - Epoch 1, Total Reward: 1839.40
+2025-06-25 00:50:54,916 - INFO - Epoch 2, Total Reward: 1896.60
+2025-06-25 00:50:54,918 - INFO - 
+--- Training Finished ---
+2025-06-25 00:50:54,919 - INFO - Saving models to /media/meow/Transcend/FinLab_tw/qrl_industry_sector_rotation/checkpoints
+2025-06-25 00:50:54,950 - INFO - Models saved successfully.
+2025-06-25 00:50:54,950 - INFO - 
+--- Starting Evaluation ---
+2025-06-25 00:51:55,822 - INFO - 
+--- QRL Strategy Performance Metrics ---
+2025-06-25 00:51:55,822 - INFO - Cumulative Return        : 84.55%
+2025-06-25 00:51:55,822 - INFO - Annualized Return        : 12.50%
+2025-06-25 00:51:55,823 - INFO - Annualized Volatility    : 18.80%
+2025-06-25 00:51:55,823 - INFO - Sharpe Ratio             : 0.66
+2025-06-25 00:51:55,823 - INFO - Max Drawdown             : -34.88%
+2025-06-25 00:51:55,823 - INFO - Calmar Ratio             : 0.36
