@@ -119,4 +119,16 @@ Annualized Return        : 16.80%
 Annualized Volatility    : 19.16%
 Sharpe Ratio             : 0.88
 Max Drawdown             : -35.31%
-``` 
+```
+
+## Model Comparison
+
+Here is a comparison of the final training rewards and evaluation performance across different models.
+
+| Model       | Final Reward | Cumulative Return | Annualized Return | Annualized Volatility | Sharpe Ratio | Max Drawdown |
+|-------------|--------------|-------------------|-------------------|-----------------------|--------------|--------------|
+| `lstm`      | 2737.00      | 125.33%           | 16.90%            | 19.25%                | 0.88         | -31.98%      |
+| `transformer` | 2795.30      | 124.29%           | 16.80%            | 19.16%                | 0.88         | -35.31%      |
+| `qnn`       | 2847.00      | 105.93%           | 14.89%            | 19.18%                | 0.78         | -32.26%      |
+| `qrwkv`     | 2653.40      | 103.91%           | 14.68%            | 19.18%                | 0.77         | -32.75%      |
+| `qasa`      | 2883.30      | 93.14%            | 13.49%            | 19.03%                | 0.71         | -31.73%      | 
