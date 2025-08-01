@@ -1,8 +1,9 @@
 # QRL for Industry Sector Rotation
-
+[![arXiv](https://img.shields.io/badge/arXiv-2506.20930-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2506.20930)  
 This project implements a Quantum Reinforcement Learning (QRL) agent for the task of industry sector rotation in the stock market. The agent, based on Proximal Policy Optimization (PPO), learns a policy to select a portfolio of top-performing industry sectors to maximize investment returns.
 
 ## Features
+<img width="1660" height="934" alt="image" src="https://github.com/user-attachments/assets/7ed15b1c-b097-4b4a-b4e7-3d7313a5d1ba" />
 
 - **Reinforcement Learning Agent**: Utilizes a PPO agent to learn an optimal investment strategy.
 - **Multiple Model Architectures**: Supports various underlying models for the PPO agent's policy and value networks:
