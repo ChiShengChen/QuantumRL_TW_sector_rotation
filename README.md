@@ -42,6 +42,8 @@ qrl_industry_sector_rotation/
 
 ## Setup & Installation
 
+**Code Only, the original tw stock data can not provide**
+
 1.  **Clone the repository:**
     ```bash
     git clone <repository_url>
