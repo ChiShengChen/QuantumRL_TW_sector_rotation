@@ -1,4 +1,4 @@
-# QRL for Industry Sector Rotation
+# [QCE25]QRL for Industry Sector Rotation
 [![arXiv](https://img.shields.io/badge/arXiv-2506.20930-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2506.20930)  
 The official implement of "Quantum Reinforcement Learning Trading Agent for Sector Rotation in the Taiwan Stock Market" (QCE25, QCRL workshop).
 This project implements a Quantum Reinforcement Learning (QRL) agent for the task of industry sector rotation in the stock market. The agent, based on Proximal Policy Optimization (PPO), learns a policy to select a portfolio of top-performing industry sectors to maximize investment returns.
